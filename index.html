@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Web Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Web Voćarna</h1>
+    <div class="cart-container">
+        <button class="cart-button">Cart <span class="cart-badge">0</span></button>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search">
+      <button id="search-button">Search</button>
+      <button id="show-button">Show All</button>
+  </div>
+
+    <div class="items-grid">
+    </div>
+
+    <div class="modal">
+      <div class="modal-content" id ="window">
+        <span class="close">&times;</span>
+        <h2 id="header">Cart</h2>
+        <ul class="cart-items">
+        </ul>
+        <p>Total:<span class="cart-total"></span></p>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
